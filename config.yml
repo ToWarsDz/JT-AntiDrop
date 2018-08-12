@@ -1,0 +1,47 @@
+﻿# Là thời gian sẻ hiện thị lại yêu cầu xác nhận
+# Nếu bấm Q hoặc vứt ra 1 lần mà không bấm lần nữa trong vòng 2 giây 
+# Thì sẻ yêu cầu xác nhận lại
+# 20 Tick = 1 giây
+# Nếu drops-delay: 20 có nghĩa 1 giây
+drops-delay: 40
+#=======================================#
+#                 Messages              #
+#=======================================#
+drops-message: '&a&lBạn mới vứt một vật phẩm nào đó ra ngoài.'
+no-permission: '&cBạn không có quyền sử dụng lệnh này.'
+toggle-disabled: '&3Bạn vừa &ctắt &3chế độ xác nhận vứt vật phẩm'
+toggle-enabled: '&3Bạn vừa &abật &3chế độ xác nhận vứt vật phẩm'
+reload-message: '&9Đã tải lại tệp config.yml'
+xacnhan-vut: '&a&lẤn lần nữa để vứt đồ ra. Tắt tính năng này bằng lệnh /ad toggle'
+ChatType: "MESSAGE"
+#Enum: MESSAGE,  ACTIONBAR ||
+#=======================================#
+#                 Sound                 #
+#=======================================#
+#Bạn tự kiềm sound nhá mình lấy đại 
+#Không được để <trống> phần này lổi nhá
+sound.v1.8: LEVEL_UP
+sound.other: ENTITY_PLAYER_LEVELUP
+sound-enable: true
+#true là bật tiếng động nhẹ false là tắt tiếng động nhẹ 
+#=======================================#
+#                   GUI                 #
+#=======================================#
+gui:
+  title: '&9Bật tắt chế độ xác nhận vứt vật phẩm'
+  
+  enatitle: '&aBật chế độ xác nhận'
+  enalore:
+    - '&7Bấm vào để &abật &7chế độ xác'
+    - '&7nhận vứt vật phẩm'
+    
+#////////////////////////////////////////////////////////
+
+  distitle: '&cBật chế độ xác nhận'
+  dislore:
+    - '&7Bấm vào để &cbật &7chế độ xác'
+    - '&7nhận vứt vật phẩm'  
+#=======================================#
+#                   Join                #
+#=======================================#
+Join-Xacnhan-Enable: true

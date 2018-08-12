@@ -1,0 +1,6 @@
+﻿name: JT-AntiDrop
+main: antidrop.towars.vn.Main
+version: 1.5.0
+author: JT_ToWarsDz_
+loadbefore: [SpaciousLib]
+depend: [SpaciousLib]
